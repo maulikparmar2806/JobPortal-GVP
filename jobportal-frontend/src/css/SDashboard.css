@@ -1,0 +1,41 @@
+.small-box {
+    position: relative;
+    display: block;
+    border-radius: 0.25rem;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .small-box .inner {
+    padding: 10px;
+  }
+  
+  .small-box .icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+  }
+  
+  .small-box-footer {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d;
+  }
+  
+  .bg-dark {
+    background-color: #343a40;
+  }
+  
+  .bg-secondary .small-box-footer,
+  .bg-dark .small-box-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
